@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap');
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(168, 209, 19);
+}
+
+span{
+    background: url(https://cdn4.iconfinder.com/data/icons/small-n-flat/24/heart-256.png);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 6s linear;
+}
+
+h1 {
+    color: bisque;
+    justify-content: center;
+    display: flex;
+    border: 3px solid;
+    margin: 50px;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px bisque;
+}
+
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+    100%{
+        transform: translate(-50%, -5000%);
+        opacity: 0;
+        filter: hue-rotate(720deg);
+    }
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Sofadi+One&display=swap'); */
+
+
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(168, 209, 19);
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h2{
+    color: yellow;
+}
